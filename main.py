@@ -53,9 +53,16 @@ def read_repo_data(repo_owner, repo_name):
 
 
 if __name__ == "__main__":
-    dtc_faq = read_repo_data('DataTalksClub', 'faq')
-    evidently_docs = read_repo_data('evidentlyai', 'docs')
+    # dtc_faq = read_repo_data('DataTalksClub', 'faq')
+    # evidently_docs = read_repo_data('evidentlyai', 'docs')
+    # print(f"FAQ documents: {len(dtc_faq)}")
+    # print(f"Evidently documents: {len(evidently_docs)}")
+    
+    # why don't some repos work?
+    # data = read_repo_data('kjam', 'practical-data-privacy')
+    
+    data = read_repo_data('PacktPublishing', 'Applied-Geospatial-Data-Science-with-Python')
+    print(f"Repo documents: {len(data)}")
 
-    print(f"FAQ documents: {len(dtc_faq)}")
-    print(f"Evidently documents: {len(evidently_docs)}")
+    
 
