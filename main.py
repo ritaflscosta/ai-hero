@@ -61,8 +61,11 @@ if __name__ == "__main__":
     # why don't some repos work?
     # data = read_repo_data('kjam', 'practical-data-privacy')
     
-    data = read_repo_data('PacktPublishing', 'Applied-Geospatial-Data-Science-with-Python')
-    print(f"Repo documents: {len(data)}")
+    # pp_data = read_repo_data('PacktPublishing', 'Applied-Geospatial-Data-Science-with-Python')
+    # print(f"Packt documents: {len(pp_data)}")
+
+    lonboard_data = read_repo_data('developmentseed', 'lonboard')
+    print(f"Lonboard documents: {len(lonboard_data)}")
 
     
 
